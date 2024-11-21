@@ -29,16 +29,5 @@ A confusion matrix is generated to visualize the performance.
 The ROC curve is plotted, and the AUC (Area Under Curve) score is calculated to evaluate the model's ability to distinguish between the two classes (default/no default).
 ## 6. Prediction:
 The trained model can then be used to predict whether new or unseen data will result in a default.
-Dependencies
-To run this notebook, you will need to install the following dependencies:
 
-### pandas – for data manipulation
-### numpy – for numerical operations
-### matplotlib – for creating plots and visualizations
-### scikit-learn – for machine learning models and evaluation metrics
-### scipy – for handling ARFF file format
-You can install the necessary dependencies by running:
 
-# bash
-## Copy code
-### pip install -r requirements.txt
