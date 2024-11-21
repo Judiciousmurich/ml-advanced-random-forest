@@ -1,0 +1,32 @@
+# Python-related files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.bak
+*.log
+
+# Virtual environment directories
+venv/
+env/
+ENV/
+.venv/
+.ipynb_checkpoints/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Package distribution files
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Other unnecessary files
+.DS_Store
+Thumbs.db
