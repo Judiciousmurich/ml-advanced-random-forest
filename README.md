@@ -32,13 +32,13 @@ The trained model can then be used to predict whether new or unseen data will re
 Dependencies
 To run this notebook, you will need to install the following dependencies:
 
-pandas – for data manipulation
-numpy – for numerical operations
-matplotlib – for creating plots and visualizations
-scikit-learn – for machine learning models and evaluation metrics
-scipy – for handling ARFF file format
+### pandas – for data manipulation
+### numpy – for numerical operations
+### matplotlib – for creating plots and visualizations
+### scikit-learn – for machine learning models and evaluation metrics
+### scipy – for handling ARFF file format
 You can install the necessary dependencies by running:
 
-bash
-Copy code
-pip install -r requirements.txt
+# bash
+## Copy code
+### pip install -r requirements.txt
