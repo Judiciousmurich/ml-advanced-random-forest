@@ -75,3 +75,24 @@ grid_search = GridSearchCV(estimator=rf, param_grid=param_grid, cv=5)
 grid_search.fit(X_train, y_train)
 print(f"Best Parameters: {grid_search.best_params_}")
 
+# FINAL MODEL
+
+# Train the final model with the best parameters
+best_rf = grid_search.best_estimator_
+
+# Make predictions and evaluate as before
+y_pred = best_rf.predict(X_test)
+
+print(f'Accuracy: {accuracy_score(y_test, y_pred)}')
+print(f'Classification Report:\n{classification_report(y_test, y_pred)}')
+
+# SAVE THE MODEL
+import joblib
+# Save the model to a file
+joblib.dump(best_rf, 'credit_model.pkl')
+
+
+
+
+
+
