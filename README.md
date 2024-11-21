@@ -1,4 +1,4 @@
-# Credit Card Default Prediction Model
+# Rando Forest Prediction Model
 ## Project Overview
 This project aims to predict whether a customer will default on their credit card payment. The dataset used contains various customer features, and the model is designed to classify customers into two categories: those who will default (1) and those who will not (0). The analysis and model training are performed using a Random Forest Classifier.
 
